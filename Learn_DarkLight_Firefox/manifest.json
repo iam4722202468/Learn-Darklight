@@ -32,7 +32,8 @@
       ],
       "matches": [
         "*://learn.uwaterloo.ca/*",
-        "*://mylearningspace.wlu.ca/*"
+        "*://mylearningspace.wlu.ca/*",
+        "*://courselink.uoguelph.ca/*"
       ],
       "run_at": "document_start"
     },
@@ -43,6 +44,7 @@
       ],
       "matches": [
         "*://learn.uwaterloo.ca/*",
+        "*://courselink.uoguelph.ca/*",
         "*://mylearningspace.wlu.ca/*"
       ],
       "run_at": "document_idle"
@@ -64,6 +66,7 @@
     "contextMenus",
     "storage",
     "*://learn.uwaterloo.ca/*",
+    "*://courselink.uoguelph.ca/*",
     "*://mylearningspace.wlu.ca/*"
   ],
   "short_name": "Learn Darklight",
